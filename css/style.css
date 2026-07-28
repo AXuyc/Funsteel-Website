@@ -357,15 +357,32 @@ a { color: #0066cc; text-decoration: none; }
 .type-selector {
   margin: 1.5rem 0 2rem 0;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 0;
   border: 1px solid #eaeaea;
   border-radius: 6px;
-  overflow: hidden;
-  width: fit-content;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: #c7c7c7 transparent;
+}
+
+.type-selector::-webkit-scrollbar {
+  height: 8px;
+}
+
+.type-selector::-webkit-scrollbar-thumb {
+  background: #c7c7c7;
+  border-radius: 999px;
 }
 
 .type-tab {
+  flex: 0 0 auto;
+  min-width: 10rem;
   padding: 0.6rem 1.4rem;
   font-size: 0.9rem;
   font-weight: 500;
@@ -376,9 +393,13 @@ a { color: #0066cc; text-decoration: none; }
   cursor: pointer;
   transition: background 0.15s ease, color 0.15s ease;
   font-family: inherit;
+  text-align: center;
 }
 
-.type-tab:last-child { border-right: none; }
+.type-tab:last-child {
+  border-right: none;
+}
+
 .type-tab:hover {
   background: #f0f0f0;
   color: #333333;
