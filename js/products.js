@@ -2,6 +2,7 @@ export const PRODUCTS = [
   {
     slug: 'high-carbon-ferrochrome',
     name: 'High-Carbon Ferrochrome',
+    meta: [],
     tagline: 'An alloy of chromium and iron (HCFeCr), contains 4~10% Carbon. Also contains small amounts of silicon, phosphorus, and sulfur.',
     origins: ['India', 'Zimbabwe'],
     image: ['HC_FeCr_1.jpg', 'HC_FeCr_2.jpg'],
@@ -55,6 +56,7 @@ export const PRODUCTS = [
   {
     slug: 'medium-carbon-ferrochrome',
     name: 'Medium-Carbon Ferrochrome',
+    meta: [],
     tagline: 'An alloy of chromium and iron (MC FeCr), contains 0.5~4% Carbon. Also contains small amounts of silicon, phosphorus, and sulfur.',
     origins: ['Zimbabwe', 'China'],
     image: ['MC_FeCr_1.jpg'],
@@ -74,6 +76,7 @@ export const PRODUCTS = [
   {
     slug: 'low-carbon-ferrochrome',
     name: 'Low-Carbon Ferrochrome',
+    meta: [],
     tagline: 'An alloy of chromium and iron (LC FeCr), contains ≤0.5% Carbon. Also contains small amounts of silicon, phosphorus, and sulfur.',
     origins: ['China'],
     image: ['LC_FeCr_1.jpg'],
@@ -93,6 +96,7 @@ export const PRODUCTS = [
   {
     slug: 'micro-carbon-ferrochrome',
     name: 'Micro-Carbon Ferrochrome',
+    meta: [],
     tagline: 'An alloy of chromium and iron (MCr FeCr), contains ≤0.15% Carbon. Also contains small amounts of silicon, phosphorus, and sulfur.',
     origins: ['Zimbabwe', 'China'],
     image: ['MCr_FeCr_1.jpg'],
@@ -112,6 +116,7 @@ export const PRODUCTS = [
   {
     slug: 'chromium-silicon',
     name: 'Chromium Silicon',
+    meta: [],
     tagline: 'Chromium Silicon(SiCr) is an alloy primarily consisting of chromium, silicon and iron. Typically it contains Cr > 30%, Si > 35% and the rest is iron and other impurities.',
     origins: ['China'],
     image: null,
@@ -131,6 +136,7 @@ export const PRODUCTS = [
   {
     slug: 'cast-iron',
     name: 'Cast Iron',
+    meta: [],
     tagline: 'Cast Iron is a type of iron-carbon alloy with carbon content more than 2%. It generally tends to be brittle, with low melting point, good fluidity, castability and excellent machinability.',
     origins: ['China'],
     image: ['Cast_Iron_2.png', 'Cast_Iron_1.png'],
@@ -162,6 +168,7 @@ export const PRODUCTS = [
   {
     slug: 'chromium',
     name: 'Chromium',
+    meta: [],
     tagline: 'High purity chromium(Cr) with almost no carbon content (97~99.3% chromium). It is valued for its high hardness, corrosion resistance.',
     origins: ['China'],
     image: ['Cr_1.jpg'],
@@ -181,6 +188,7 @@ export const PRODUCTS = [
   {
     slug: 'chromium-nitride',
     name: 'Chromium Nitride',
+    meta: [],
     tagline: 'Chromium Nitride (CrN) is very hard and extremely resistant to corrosion.',
     origins: ['China'],
     image: ['CrN_1.jpg'],

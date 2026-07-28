@@ -363,7 +363,7 @@ a { color: #0066cc; text-decoration: none; }
   border-radius: 6px;
   overflow-x: auto;
   overflow-y: hidden;
-  width: 100%;
+  width: fit-content;
   max-width: 100%;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
