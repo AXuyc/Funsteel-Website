@@ -222,6 +222,15 @@ function renderProductDetailFromHash() {
   const container = document.getElementById('products-list');
   if (!product || !container) return;
 
+  if (product.meta) {
+    if (product.meta[0]) {
+      document.querySelector('meta[property="og:title"]').setAttribute('content', product.meta[0]);
+    }
+    if (product.meta[1]) {
+      document.querySelector('meta[property="og:description"]').setAttribute('content', product.meta[1]);
+    }
+  }
+
   const hasMultiple = product.type.length > 1;
   const imageUrl = Array.isArray(product.image) ? product.image[0] : product.image;
 

@@ -2,9 +2,9 @@ export const PRODUCTS = [
   {
     slug: 'high-carbon-ferrochrome',
     name: 'High-Carbon Ferrochrome',
-    meta: [],
+    meta: ['High-Carbon Ferrochrome (HCFeCr) Supplier - India & China & Zimbabwe | Funsteel', 'Buy high-carbon ferrochrome (4-10% C) sourced from India and Zimbabwe. Competitive pricing, reliable supply, and consistent specs for steel mills and foundries.'],
     tagline: 'An alloy of chromium and iron (HCFeCr), contains 4~10% Carbon. Also contains small amounts of silicon, phosphorus, and sulfur.',
-    origins: ['India', 'Zimbabwe'],
+    origins: ['India', 'China', 'Zimbabwe'],
     image: ['HC_FeCr_1.jpg', 'HC_FeCr_2.jpg'],
     type: [
       {
@@ -56,9 +56,9 @@ export const PRODUCTS = [
   {
     slug: 'medium-carbon-ferrochrome',
     name: 'Medium-Carbon Ferrochrome',
-    meta: [],
+    meta: ['Medium-Carbon Ferrochrome (MC FeCr) Supplier - China & Zimbabwe | Funsteel', 'Funsteel supplies medium-carbon ferrochrome (0.5-4% C) from Zimbabwe and China. Ideal for specialty steel and stainless steel production.'],
     tagline: 'An alloy of chromium and iron (MC FeCr), contains 0.5~4% Carbon. Also contains small amounts of silicon, phosphorus, and sulfur.',
-    origins: ['Zimbabwe', 'China'],
+    origins: ['China', 'Zimbabwe'],
     image: ['MC_FeCr_1.jpg'],
     type: [
       {
@@ -76,7 +76,7 @@ export const PRODUCTS = [
   {
     slug: 'low-carbon-ferrochrome',
     name: 'Low-Carbon Ferrochrome',
-    meta: [],
+    meta: ['Low-Carbon Ferrochrome (LC FeCr) Supplier - China | Funsteel', 'Source low-carbon ferrochrome (≤0.5% C) from China through Funsteel. Backed by 75,000 tonnes/year production capacity and 15+ years of industry experience.'],
     tagline: 'An alloy of chromium and iron (LC FeCr), contains ≤0.5% Carbon. Also contains small amounts of silicon, phosphorus, and sulfur.',
     origins: ['China'],
     image: ['LC_FeCr_1.jpg'],
@@ -96,7 +96,7 @@ export const PRODUCTS = [
   {
     slug: 'micro-carbon-ferrochrome',
     name: 'Micro-Carbon Ferrochrome',
-    meta: [],
+    meta: ['Micro-Carbon Ferrochrome (≤0.15% C) Supplier - Zimbabwe & China | Funsteel', 'Buy micro-carbon ferrochrome (≤0.15% C) sourced from China and Zimbabwe. Supplied by Funsteel'],
     tagline: 'An alloy of chromium and iron (MCr FeCr), contains ≤0.15% Carbon. Also contains small amounts of silicon, phosphorus, and sulfur.',
     origins: ['Zimbabwe', 'China'],
     image: ['MCr_FeCr_1.jpg'],
@@ -116,7 +116,7 @@ export const PRODUCTS = [
   {
     slug: 'chromium-silicon',
     name: 'Chromium Silicon',
-    meta: [],
+    meta: ['Chromium Silicon (SiCr) Alloy Supplier - China | Funsteel', 'Buy chromium silicon (SiCr) sourced from China. Supplied by Funsteel'],
     tagline: 'Chromium Silicon(SiCr) is an alloy primarily consisting of chromium, silicon and iron. Typically it contains Cr > 30%, Si > 35% and the rest is iron and other impurities.',
     origins: ['China'],
     image: null,
@@ -136,7 +136,7 @@ export const PRODUCTS = [
   {
     slug: 'cast-iron',
     name: 'Cast Iron',
-    meta: [],
+    meta: ['Cast Iron Supplier - China | Funsteel', 'Buy cast iron sourced from China. Supplied by Funsteel'],
     tagline: 'Cast Iron is a type of iron-carbon alloy with carbon content more than 2%. It generally tends to be brittle, with low melting point, good fluidity, castability and excellent machinability.',
     origins: ['China'],
     image: ['Cast_Iron_2.png', 'Cast_Iron_1.png'],
@@ -168,7 +168,7 @@ export const PRODUCTS = [
   {
     slug: 'chromium',
     name: 'Chromium',
-    meta: [],
+    meta: ['High-Purity Chromium (97-99.3% Cr) Supplier - China | Funsteel', 'Buy high-purity chromium metal with minimal carbon content (97-99.3% Cr) sourced from China. Supplied by Funsteel'],
     tagline: 'High purity chromium(Cr) with almost no carbon content (97~99.3% chromium). It is valued for its high hardness, corrosion resistance.',
     origins: ['China'],
     image: ['Cr_1.jpg'],
@@ -188,7 +188,7 @@ export const PRODUCTS = [
   {
     slug: 'chromium-nitride',
     name: 'Chromium Nitride',
-    meta: [],
+    meta: ['Chromium Nitride (CrN) Supplier - China | Funsteel', 'Buy chromium nitride (CrN) sourced from China. Supplied by Funsteel'],
     tagline: 'Chromium Nitride (CrN) is very hard and extremely resistant to corrosion.',
     origins: ['China'],
     image: ['CrN_1.jpg'],
