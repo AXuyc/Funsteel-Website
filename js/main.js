@@ -239,7 +239,7 @@ function renderProductDetailFromHash() {
       <a href="products.html" class="back-link">&larr; Back to Products</a>
       <h1>${product.name}</h1>
       <p>${product.tagline}</p>
-      ${imageUrl ? `<div class="detail-image"><img src="assets/image/${imageUrl}" alt="${product.name}" style="width: 100%; max-width: 100vw; height: auto; display: block;"> </div>` : ''}
+      ${imageUrl ? `<div class="detail-image"><img src="assets/image/${imageUrl}" alt="${product.name}"></div>` : ''}
       ${hasMultiple ? `<div class="type-selector">${product.type.map((type, index) => `<button class="type-tab${index === 0 ? ' active' : ''}" data-index="${index}">${type.name}</button>`).join('')}</div>` : ''}
       <div class="type-panel">
         <h2>${product.type[0].name}</h2>
